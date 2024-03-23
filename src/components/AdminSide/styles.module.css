@@ -1,0 +1,15 @@
+.container_adminside {
+    display: flex;
+    justify-content: center;
+    padding-top: 52px;
+    padding-left: 20px;
+}
+
+@media (max-width: 1024px) {
+    .container_adminside {
+        padding-top: 4px;
+        padding-left: 10px;
+    }
+}
+
+

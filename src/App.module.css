@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family:
+    'Salara-Bold' 
+    'Salara-Regular';
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "main auth";
+    min-height: 100vh;
+    background-image: url('/assets/main_bg.png');
+    background-repeat: repeat;
+}
+
+.main {
+    grid-area: main; 
+}
+
+.auth {
+    grid-area: auth;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .app {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+         grid-template-areas:  
+        "auth" "main"; 
+        height: auto !important;
+        background: url('/assets/main_bg.png');
+        background-size: cover;
+        background-repeat: repeat;
+    }
+}
+
+@font-face {
+    font-family: 'Salara-Bold';
+    src: url('./fonts/Sarala-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Salara-Regular';
+    src: url('./fonts/Sarala-Regular.ttf');
+}

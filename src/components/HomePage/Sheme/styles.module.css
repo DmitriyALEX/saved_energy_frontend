@@ -1,0 +1,38 @@
+.container {
+    width: 50vw;
+    top: 5%;
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+}
+
+.container_img {
+    margin-top: 8px;
+}
+
+.sheme_img {
+    border-radius: 16px;
+}
+
+.container_close_btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        display: block;
+        top: 15%;
+    }
+
+    .container_close_btn {
+        width: 90vw;
+        padding: 16px;
+    }
+
+    .sheme_img {
+        padding: 0;
+        width: 100vw;
+        height: 100%;
+    }
+}

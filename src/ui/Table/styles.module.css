@@ -1,0 +1,61 @@
+.table {
+    border-collapse: collapse;
+    font-size: 1.5rem;
+}
+
+.table_head {
+    border-radius: 8px;
+    background: rgb(108, 84, 180, 0.4);
+}
+
+.table_head_rows {
+    border: 1px solid rgb(108, 84, 180, 0.7);
+    border-radius: 8px;
+}
+
+.table_head_cell {
+    border: none;
+    font-family: 'Salara-Bold';
+    padding: 16px;
+    font-size: 1.2rem;
+}
+
+.table_body {
+    border: 1px solid rgb(108, 84, 180, 0.7);
+}
+
+.table_body_rows_even {
+    border: 1px solid rgb(108, 84, 180, 0.5);
+    background: rgb(108, 84, 180, 0.2);
+}
+
+.table_body_rows_row {
+    border: 1px solid rgb(108, 84, 180, 0.5);
+    background: rgb(108, 84, 180, 0.3);
+}
+
+.table_body_cell {
+    border: 1px solid rgb(108, 84, 180, 0.4);
+    font-size: 1rem;
+    font-family: 'Salara-Regular';
+    text-align: center;
+    padding: 8px;
+}
+
+.table_body_cell_value {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+    .table_head_cell {
+        border: none;
+        padding: 4px;
+        font-size: 1rem;
+    }
+
+    .table_body_cell {
+        font-size: 16px;
+        padding: 4px;
+    }
+}

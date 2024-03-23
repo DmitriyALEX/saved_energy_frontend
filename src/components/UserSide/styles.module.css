@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px;
+    padding: 20px 0 20px 0;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nav {
+    margin-bottom: 16px;
+}
+
+.subnav {
+    margin-top: 16px;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        margin: 4px;
+    }
+}
+

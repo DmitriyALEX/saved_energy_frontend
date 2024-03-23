@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_lbl {
+    font-family: 'Salara-Regular';
+    font-size: 1.2rem;
+}
+
+.title_input {
+    background: transparent;
+    height: 30px;
+    border-radius: 8px;
+    background: rgb(108, 84, 180, 0.2);
+    font-family: 'Salara-Regular';
+    font-size: 1.1rem;  
+}
+
+.content_lbl {
+    font-family: 'Salara-Regular';
+    font-size: 1.2rem;
+}
+
+.content_text {
+    background: transparent;
+    outline: 1px solid rgb(108, 84, 180);
+    border-radius: 8px;
+    background: rgb(108, 84, 180, 0.2);
+    font-family: 'Salara-Regular';
+    font-size: 1.1rem;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .form {
+        width: 90vw;
+    }
+}

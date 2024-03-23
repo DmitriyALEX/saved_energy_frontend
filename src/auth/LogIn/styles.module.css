@@ -1,0 +1,37 @@
+.wrapper {
+    padding-top: 32px;
+}
+
+.container_notice {
+    height: 20px;
+}
+
+.notfind_notice {
+    color: red;
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'Salara-Regular';
+}
+
+.remind_container {
+    display: flex;
+    justify-content: center;
+}
+
+.remind_btn {
+    margin-top: 16px;
+    border: none;
+    background: transparent;
+    font-size: 1.1rem;
+    font-family: 'Salara-Regular';
+}
+
+.remind_btn:hover {
+    margin-top: 16px;
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-family: 'Salara-Regular';
+    cursor: pointer;
+}

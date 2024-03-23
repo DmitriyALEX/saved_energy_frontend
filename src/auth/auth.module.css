@@ -1,0 +1,44 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 32px;
+    padding: 20px 0 20px 0;
+}
+
+.wrapper_auth_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 32px;
+    padding: 20px 0 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.nav_auth {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        margin: 16px;  
+    }
+
+    .wrapper_auth_form { 
+        margin: 16px; 
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between; 
+        justify-content: center;
+    }
+}
+

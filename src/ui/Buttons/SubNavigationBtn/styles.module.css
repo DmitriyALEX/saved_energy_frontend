@@ -1,0 +1,23 @@
+.subnavigation {
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    background: transparent;
+    border-radius: 8px;
+    border: 3px solid rgb(108, 84, 180);
+    font-size: 1.1rem;
+    font-family: 'Salara-Regular';
+    margin: 8px 0 8px 0;
+}
+
+.subnavigation:hover {
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    background: transparent;
+    border-radius: 8px;
+    border: 3px solid rgb(108, 84, 180);
+    font-size: 1.1rem;
+    font-family: 'Salara-Regular';
+    cursor: pointer;
+}

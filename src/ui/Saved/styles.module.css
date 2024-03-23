@@ -1,0 +1,66 @@
+.content_container {
+    background-color: rgb(85, 115, 174, 0.4);
+    padding: 8px;
+    border-radius: 8px;
+    width: 700px;
+    margin: 8px;
+}
+
+.reversed {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+}
+
+.content_item_container {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(41, 61, 101);
+    background-color: rgb(85, 115, 174, 0.5);
+}
+
+.content_item_title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Salara-Bold';
+}
+
+.content_item_text_container {
+    overflow: hidden;
+    border-bottom: 1px solid rgb(83, 99, 135);
+}
+
+.content_item_text {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Salara-Regular';
+}
+
+.content_item_text:visited {
+    color: rgb(71, 4, 87);
+}
+
+.content_item_text:hover {
+    color: rgb(0, 3, 8);
+}
+
+.content_item_text:active {
+    color: rgb(228, 227, 236);
+}
+
+.content_item_date {
+    font-size: 15px;
+    font-family: 'Salara-Regular';
+}
+
+@media (max-width: 1024px) {
+    .content_container {
+        background-color: rgb(85, 115, 174, 0.4);
+        padding: 8px;
+        border-radius: 8px;
+        width: 90vw;
+        margin: 8px;
+    }
+}

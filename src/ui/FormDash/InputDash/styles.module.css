@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.label {
+  font-family: 'Salara-Regular';
+  font-size: 1.2rem;
+}
+
+.input {
+  background: transparent;
+  outline: 1px solid rgb(108, 84, 180);
+  height: 30px;
+  width: 250px;
+  border-radius: 8px;
+  background: transparent;
+  font-family: 'Salara-Regular';
+  font-size: 1.1rem;  
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

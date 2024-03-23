@@ -1,0 +1,14 @@
+.wrapper {
+    padding-top: 32px;
+}
+
+.container_notice {
+    height: 20px;
+}
+
+.exist_notice {
+    color: red;
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'Salara-Regular';
+}
