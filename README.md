@@ -1,4 +1,4 @@
-Deployed: 
+Deployed version: 
 https://saved-energy.web.app/
 
 
